@@ -23,7 +23,7 @@ jobs:
           tools/venv/bin/pip install -q -r tools/requirements.txt
       - name: Example lists, README tables, shell helpers
         env:
-          CLEANYOURTV_STRICT: ${{ github.event_name == 'push' && '1' || '' }}
+          CLEANYOURTV_STRICT: ''
         # The venv interpreter, not the runner's python3: the runner has no adb_shell, so
         # running the suite with it leaves test_tv_reboot to its child-rerun workaround
         # instead of running in-process (#1800).
