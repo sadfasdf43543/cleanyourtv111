@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The UI fonts, looked up through these strings so a locale can swap in a system family (values-vi points
+     them at the system sans-serif, #833). Thmanyah Sans replaces Outfit: it draws Arabic and Latin, and its
+     digits are the Western 0-9. The outfit_* files stay in res/font for anyone who wants the old look back. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ReferenceType">
+    <string name="font_body" translatable="false">@font/thmanyah_regular</string>
+    <string name="font_regular" translatable="false">@font/thmanyah_regular</string>
+    <string name="font_light" translatable="false">@font/thmanyah_light</string>
+    <string name="font_extralight" translatable="false">@font/thmanyah_light</string>
+    <string name="font_medium" translatable="false">@font/thmanyah_medium</string>
+    <string name="font_bold" translatable="false">@font/thmanyah_bold</string>
+</resources>
